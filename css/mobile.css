@@ -1,0 +1,117 @@
+/* table */
+@media (max-width: 1199px) {
+    
+    .container {
+
+        width: 900px;
+
+    }
+
+    .subtitle {
+
+        font-family: 'Noto Sans', sans-serif;
+        text-transform: uppercase;
+        
+    }
+
+    .subtitle {
+
+        color: #999999;
+    }
+
+    }
+
+/* mobie */
+
+@media (max-width: 899px) {
+
+    .container {
+
+        width: 600px;
+        
+    }
+
+    .title {
+
+        font-size: 32px;
+        
+    }
+
+    .subtitle {
+
+        font-size: 12px;
+        
+    }
+
+    .section {
+
+        padding-top: 60px;
+        padding-bottom: 67px;
+        
+    }
+
+    .section-header {
+
+        margin-bottom: 40px;
+            
+    }
+
+    .section-cards {
+
+        margin-bottom: 40px;
+        row-gap: 40px;
+    
+    }
+
+    .button {
+
+        font-size: 18px;
+        padding: 12px 25px 14px;
+        
+    }
+    
+}
+
+/* mobie sx*/
+
+@media (max-width: 599px) {
+
+    .container {
+
+        width: 320px;
+
+    }
+
+    .section {
+
+        padding-bottom: 40px;
+        
+    }
+
+    .section-cards {
+
+        row-gap: 20px;
+        justify-content: center;
+    
+    }
+
+    .card-title {
+
+        margin-bottom: 10px;
+        font-size: 18px;
+        
+    }
+
+    .card-descrition {
+    
+        margin-bottom: 10px;
+        
+    }
+
+    a.card-link {
+
+        font-size: 18px;
+    
+    }
+
+}
